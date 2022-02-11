@@ -5,9 +5,27 @@ Authors@R: person('AUTHOR_FIRST', 'AUTHOR_LAST', email = 'AUTHOR@MAIL.COM', role
 Description: PKG_DESC.
 License: MIT + file LICENSE
 Imports: 
+    attempt,
     config (>= 0.3.1),
+    data.validator (>= 0.1.6),
+    DT,
+    glue,
     golem (>= 0.3.1),
-    shiny (>= 1.7.1)
+    htmltools,
+    magrittr,
+    processx,
+    shiny (>= 1.7.1),
+    shiny.semantic,
+    thinkr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Language: en-US
+Remotes: 
+    Appsilon/data.validator
+URL: https://github.com/gavandrewj/dataValidator
+BugReports: https://github.com/gavandrewj/dataValidator/issues
